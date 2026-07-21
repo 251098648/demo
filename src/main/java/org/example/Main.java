@@ -58,6 +58,7 @@ public class Main {
             System.err.println("自动化用例执行失败：断言/页面操作异常");
             // 非0退出码，Maven输出BUILD FAILURE
             System.exit(1);
+            // end of testing
         }
     }
 }
