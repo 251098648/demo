@@ -29,6 +29,7 @@ pipeline {
     post {
         always {
             // 收集测试报告，Jenkins展示结果
+            //测试一下
             junit testResults: 'target/surefire-reports/*.xml', allowEmptyResults: true
             archiveArtifacts artifacts: 'target/screenshot/**', allowEmptyArchive: true
         }
