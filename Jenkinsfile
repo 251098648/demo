@@ -21,6 +21,7 @@ pipeline {
                     mvn clean test \
                     -Dheadless=true
                 '''
+                //test only
             }
         }
     }
